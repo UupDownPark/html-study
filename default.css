@@ -1,0 +1,47 @@
+html {
+  background: #f2f2f2;
+}
+
+.scroll-container,
+.snapped-area {
+  max-width: 100vw;
+  height: 100vh;
+  font-size: 60px;
+}
+
+.scroll-container {
+  overflow: auto;
+  scroll-snap-type: y mandatory;
+}
+
+.snapped-area {
+  scroll-snap-align: start;
+}
+
+.scroll-container,
+.snapped-area {
+  margin: 0 auto;
+}
+
+.snapped-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.snapped-area:nth-of-type(1) {
+  background: #49b293;
+}
+
+.snapped-area:nth-of-type(2) {
+  background: #c94e4b;
+}
+
+.snapped-area:nth-of-type(3) {
+  background: #4cc1be;
+}
+
+.snapped-area:nth-of-type(4) {
+  background: #8360a6;
+}
